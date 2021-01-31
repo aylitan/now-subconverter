@@ -18,7 +18,7 @@ jobs:
     - name: Prepare
       run: |
         rm -rf subconverter
-        git clone https://github.com/aylitan/now-subconverter.git
+        git clone https://github.com/tindy2013/subconverter.git
     - name: Build
       run: docker run -v $GITHUB_WORKSPACE/subconverter:/root/workdir multiarch/alpine:amd64-latest-stable /bin/sh -c "apk add bash git && cd /root/workdir && chmod +x scripts/build.alpine.release.sh && bash scripts/build.alpine.release.sh"
     - name: Clean up
@@ -34,7 +34,7 @@ jobs:
       run: |
         cp -f subconverter/pref.example.ini subconverter/pref.ini
         sed -i 's/api_mode=false/api_mode=true/g' subconverter/pref.ini
-        sed -i 's/managed_config_prefix=http:\/\/127.0.0.1:25500/managed_config_prefix=https:\/\/aylitan.tk/g' subconverter/pref.ini
+        sed -i 's/managed_config_prefix=http:\/\/127.0.0.1:25500/managed_config_prefix=https:\/\/sub.aylitan.tk/g' subconverter/pref.ini
         sed -i 's/async_fetch_ruleset=false/async_fetch_ruleset=true/g' subconverter/pref.ini
         sed -i 's/max_concurrent_threads=./max_concurrent_threads=1/g' subconverter/pref.ini
     - name: Add & Commit
