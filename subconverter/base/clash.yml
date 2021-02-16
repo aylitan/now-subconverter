@@ -167,4 +167,4 @@ rules:
 - RULE-SET,telegramcidr,Telegram
 - GEOIP,,DIRECT
 - GEOIP,CN,DIRECT
-- MATCH,PROXY
+- MATCH,漏网之鱼
