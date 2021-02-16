@@ -98,6 +98,7 @@ rule-providers:
     
 rules:
 - DOMAIN-SUFFIX,nflxvideo.net,PROXY
+- DOMAIN-SUFFIX,apkpure.com,PROXY
 - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,Netflix
 - DOMAIN-KEYWORD,dualstack.ichnaea-web-,Netflix
 - DOMAIN,netflix.com.edgesuite.net,Netflix
