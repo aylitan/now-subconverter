@@ -97,6 +97,7 @@ rule-providers:
   interval: 86400
     
 rules:
+- DOMAIN-SUFFIX,voyeurhit.com,PROXY
 - DOMAIN-SUFFIX,nflxvideo.com,PROXY
 - DOMAIN-SUFFIX,apkpure.com,PROXY
 - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,Netflix
