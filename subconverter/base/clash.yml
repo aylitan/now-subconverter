@@ -158,6 +158,7 @@ rules:
 - PROCESS-NAME,NetTransport,全球直连
 - PROCESS-NAME,uTorrent,全球直连
 - PROCESS-NAME,WebTorrent,全球直连
+- PROCESS-NAME,SunloginClient,全球直连
 - DOMAIN,clash.razord.top,全球直连
 - DOMAIN,yacd.haishan.me,全球直连
 - RULE-SET,private,PROXY
@@ -171,3 +172,4 @@ rules:
 - RULE-SET,gfw,PROXY
 - RULE-SET,greatfire,PROXY
 - RULE-SET,telegramcidr,Telegram
+- GEOIP,,DIRECT
