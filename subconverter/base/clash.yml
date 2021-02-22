@@ -99,6 +99,11 @@ rule-providers:
 rules:
 - DOMAIN-SUFFIX,voyeurhit.com,PROXY
 - DOMAIN-SUFFIX,nflxvideo.com,PROXY
+- DOMAIN-SUFFIX,resilio.com,PROXY
+- IP-CIDR,23.111.157.86/27,PROXY
+- IP-CIDR,66.165.233.194/27,PROXY
+- IP-CIDR,66.206.5.74,PROXY
+- IP-CIDR,66.165.255.194/27,PROXY
 - DOMAIN-SUFFIX,apkpure.com,PROXY
 - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,Netflix
 - DOMAIN-KEYWORD,dualstack.ichnaea-web-,Netflix
